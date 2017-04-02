@@ -1,3 +1,5 @@
+% Taken from : https://www.mathworks.com/examples/matlab-computer-vision/mw/vision_product-FeatureBasedPanoramicImageStitchingExample-feature-based-panoramic-image-stitching
+
 clc 
 clear
 
