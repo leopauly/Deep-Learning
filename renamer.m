@@ -1,3 +1,5 @@
+% Matlab script to read all images in a folder and rename them in order
+
 clc
 clear all
 close all
