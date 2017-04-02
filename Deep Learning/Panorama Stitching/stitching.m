@@ -1,7 +1,7 @@
 clc 
 clear
 
-buildingDir = fullfile('E:\Programs\Oct 01 - Dec 31 2017\Matching\stiching 2'); 
+buildingDir = fullfile('E:\Programs\Oct 01 - Dec 31 2017\Matching\stiching 2');  % Give the location of your folder where all the images are stored
 buildingScene = imageDatastore(buildingDir);
 
 % Display images to be stitched
