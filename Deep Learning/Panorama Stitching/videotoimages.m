@@ -1,3 +1,6 @@
+
+% This code extracts each frame from a video and store it as seperate images
+
 clc 
 clear 
 
