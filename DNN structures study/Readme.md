@@ -1,1 +1,1 @@
-This folder contains the progams to study the effectiveness of different network architectures.
+This folder contains the programs to study the effectiveness of different network architectures.
