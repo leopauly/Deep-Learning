@@ -1,0 +1,9 @@
+embeddings {
+  tensor_name: "embedding_var:0"
+  metadata_path: "./logdir/mnist_test_labels.tsv"
+  sprite {
+    image_path: "./logdir/mnist_test_sprite.png"
+    single_image_dim: 12
+    single_image_dim: 12
+  }
+}
