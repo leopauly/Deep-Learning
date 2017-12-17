@@ -1,3 +1,4 @@
+### Classification Example 1
 
 A simple caffe program for a toy classification problem. A animal or human toy image classification problem is used here. Dataset is prepared by taking the images from standard image datasets. A Lenet like CNN network is used. <br>
 
