@@ -10,12 +10,13 @@ Setting up:
 4. Down the folder "Classification Example 1" and place it in /path/to/caffe <br>
 
 For training:
-Run the script example_train_test.py using the command: <br>
+1. Run the script example_train_test.py using the command: <br>
 $ python example_train_test.py <br>
 
 For testing:
-../build/tools/caffe test -model ./example_train_test.prototxt -weights ./logdir/dnn_iter_200000.caffemodel -iterations 100 <br>
+1. Use caffe inbuilt tool: 
+$ ../build/tools/caffe test -model ./example_train_test.prototxt -weights ./logdir/dnn_iter_200000.caffemodel -iterations 100 <br>
 
-For deploying, <br>
-Run the script example_deploy.py using the command: <br>
+For deploying: <br>
+1. Run the script example_deploy.py using the command: <br>
 $ python example_train_test.py  (you may specify the image to use inside the python scipt) <br>
