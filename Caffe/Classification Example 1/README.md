@@ -8,7 +8,7 @@ Setting up:
 2. Install caffe and its dependencies by following the steps [here](http://caffe.berkeleyvision.org/installation.html).  <br>
 3. Install pycaffe by running make pycaffe in /path/to/caffe/  <br>
 4. Download the folder "Classification Example 1" and place it in /path/to/caffe <br>
-5. Download the dataset from [here]() and place it also inside the above folder <br>
+5. Download the dataset from [here](https://drive.google.com/open?id=19az8rs-qKk8tGa6JzuXYbpUeRgZNz1_3) and place it inside the above folder <br>
 
 
 For training:
