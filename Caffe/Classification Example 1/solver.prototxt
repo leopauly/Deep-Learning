@@ -1,0 +1,26 @@
+# Solver file
+
+net: "example_train_test.prototxt"
+
+test_iter: 10
+test_interval: 200000
+
+#lr for fine-tuning should be lower than when starting from scratch
+#debug_info: true
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+iter_size: 1
+
+# stepsize should also be lower, as we're closer to being done
+stepsize: 100
+display: 200000
+max_iter: 1000001
+momentum: 0.9
+weight_decay: 0.0002
+
+snapshot: 200000
+snapshot_prefix: "./logdir/dnn"
+
+#uncomment the following to default to CPU mode solving
+#solver_mode: CPU
