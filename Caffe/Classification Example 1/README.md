@@ -14,7 +14,7 @@ For training:
 $ python example_train_test.py <br>
 
 For testing:
-1. Use caffe inbuilt tool: 
+1. Use caffe inbuilt tool: <br>
 $ ../build/tools/caffe test -model ./example_train_test.prototxt -weights ./logdir/dnn_iter_200000.caffemodel -iterations 100 <br>
 
 For deploying: <br>
